@@ -30,7 +30,7 @@ for folder in os.listdir(root_dir):
                     # Construct the command to run Whisper for subtitle generation
                     subtitle_file_name = os.path.splitext(audio_file)[0] + '.srt'
                     subtitle_file_path = os.path.join(subtitles_path, subtitle_file_name)
-                    command = f'whisper "{audio_path}" --model large-v2 --output_format srt --output_dir "{subtitles_path}"'
+                    command = f'/home/kdt/anaconda3/envs/whisper_env/bin/whisper "{audio_path}" --model large-v2 --language English --output_format srt --output_dir "{subtitles_path}"'
                     subprocess.run(command, shell=True)
 
                     # Print a message on successful subtitle generation
