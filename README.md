@@ -6,14 +6,16 @@ Automatically generate subtitles for a large number of videos
 - 2.whisper_get_srt.py
 - 3.organize_srt_files.py
 
-# File struct
+# File struct for audio
 
-- /项目根文件夹
-  - /子文件夹1
-    - 文件1.txt
-    - 文件2.txt
-  - /子文件夹2
-    - 文件3.txt
-  - 文件4.txt
-  - 文件5.txt
+- /All audio folder
+  - /audio folder1
+    - audio1.mp3
+    - audio2.mp3
+    - ...
+  - /audio folder2
+    - audio3.mp3
+    - ...
+  - ...
+ 
 
